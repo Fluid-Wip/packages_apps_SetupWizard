@@ -2,6 +2,7 @@
 <!--
      Copyright (C) 2015 The CyanogenMod Project
      Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2020-2021 ProjectFluid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -37,7 +38,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="@dimen/content_margin_left"
-                android:paddingEnd="@dimen/content_margin_left"
+                android:paddingEnd="@dimen/content_margin_right"
                 style="@style/PageContent">
 
                 <TextView
@@ -70,7 +71,7 @@
 
     <com.google.android.setupdesign.view.NavigationBar
         android:id="@+id/navigation_bar"
-        style="@style/SudNavBarTheme"
+        style="@style/FluidNavBarTheme"
         android:layout_width="match_parent"
         android:layout_height="@dimen/sud_navbar_height" />
 

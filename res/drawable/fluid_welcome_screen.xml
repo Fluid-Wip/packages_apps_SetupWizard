@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2021 ProjectFluid
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="411dp"
+    android:height="823dp"
+    android:viewportWidth="411"
+    android:viewportHeight="823">
+    <group>
+        <path
+            android:fillColor="#121212"
+            android:pathData="M0 0h411v823H0z"/>
+        <path
+            android:fillColor="#252525"
+            android:fillType="evenOdd"
+            android:pathData="M195.56-27.82c1.42-0.31 2.78-0.2 4 0.22c3.6 1.19 6.04 5.08 5.26 9.25c-6.53 34.97-4.13 66.49 2.53 95.79c6.6 29.1 17.4 56.01 27.82 81.94l0.04 0.11c3.01 7.5 5.99 14.92 8.82 22.28c18.66 48.51 31.05 94.75 5.47 147.07c-1.98 4.06-4.2 8.16-6.66 12.3c-3.4 5.73-6.87 11.16-10.4 16.3l-0.13-0.01c-23.5 34.23-49.65 55.7-75.81 68.58c-11.26 5.54-22.53 9.5-33.6 12.18c-36.88 8.96-71.5 3.9-96.17-2.92l-1.5-0.41l-0.7-0.2c-10.82-3.1-19.58-6.48-25.59-9.02c-11.4-4.83-31.5-18.9-51.09-40.72c-21.28-23.7-41.94-56.54-50.15-96.58c-3.38-16.52-4.64-34.28-2.95-53.12c1.84-20.57 7.21-42.43 17.2-65.42c7.86-18.12 18-34.87 29.8-50.31c12.69-16.57 27.3-31.63 43.1-45.26C13.15 49.81 45.3 30 76.95 14.38c18.5-9.12 36.82-16.82 54.15-23.17c24.24-8.9 46.5-15.16 64.45-19.04z"/>
+        <path
+            android:fillColor="#252525"
+            android:pathData="M44 711a80 80 0 1 0 0 160a80 80 0 1 0 0-160z"/>
+        <path
+            android:fillColor="#252525"
+            android:pathData="M349.91 505.3c3.67-17.28 20.67-28.32 37.95-24.65l77.9 16.56c17.28 3.67 28.32 20.67 24.65 37.96l-16.56 77.89c-3.67 17.28-20.67 28.32-37.95 24.65l-77.9-16.56c-17.28-3.67-28.32-20.67-24.65-37.95z"/>
+    </group>
+</vector>

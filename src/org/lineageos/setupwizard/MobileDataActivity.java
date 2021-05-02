@@ -143,7 +143,7 @@ public class MobileDataActivity extends BaseSetupWizardActivity {
         super.onCreate(savedInstanceState);
         mPhoneMonitor = PhoneMonitor.getInstance();
         mNetworkMonitor = NetworkMonitor.getInstance();
-        setNextText(R.string.next);
+        setNextText(R.string.no_text);
 
         mProgressBar = (ProgressBar) findViewById(R.id.progress);
         mEnableDataRow = findViewById(R.id.data);

@@ -2,6 +2,7 @@
 <!--
      Copyright (C) 2015 The CyanogenMod Project
      Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2020-2021 ProjectFluid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,34 +16,33 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/header"
     android:layout_width="match_parent"
     android:layout_height="@dimen/header_condensed_height"
-    android:paddingTop="48dp"
+    android:layout_marginTop="32dp"
+    android:gravity="center"
     android:orientation="vertical">
 
     <ImageView
         android:id="@+id/header_icon"
-        android:layout_width="64dp"
-        android:layout_height="wrap_content"
-        android:paddingStart="8dp"
-        android:paddingEnd="8dp"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="6dp"
         android:visibility="gone"
+        android:layout_gravity="center"
+        android:tint="#4DA6F9"
         android:contentDescription="@null" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:layout_toEndOf="@id/header_icon"
-        android:paddingEnd="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="@*android:string/config_headlineFontFamily"
-        android:textStyle="normal"
-        android:gravity="center_vertical"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:maxLines="1"
         android:ellipsize="end"
         style="@style/PageTitle" />
 
-</RelativeLayout>
+</LinearLayout>

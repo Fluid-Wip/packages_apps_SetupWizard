@@ -170,7 +170,7 @@ public class ChooseDataSimActivity extends BaseSetupWizardActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setNextText(R.string.next);
+        setNextText(R.string.no_text);
         mPhoneMonitor = PhoneMonitor.getInstance();
         mPageView = (ViewGroup) findViewById(R.id.page_view);
         mProgressBar = (ProgressBar) findViewById(R.id.progress);

@@ -51,7 +51,7 @@ public class UpdateRecoveryActivity extends BaseSetupWizardActivity {
             return;
         }
 
-        setNextText(R.string.next);
+        setNextText(R.string.no_text);
         mRecoveryUpdateCheckbox = findViewById(R.id.update_recovery_checkbox);
 
         View cbView = findViewById(R.id.update_recovery_checkbox_view);

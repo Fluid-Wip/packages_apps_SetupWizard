@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013 The CyanogenMod Project
+     Copyright (C) 2020-2021 ProjectFluid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -15,7 +16,7 @@
      limitations under the License.
 -->
 <resources>
-    <style name="Theme.Setup" parent="@android:style/Theme.Material.Light">
+    <style name="Theme.Setup" parent="Theme.MaterialComponents.DayNight">
         <item name="android:windowActionBar">false</item>
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowIsTranslucent">true</item>
@@ -26,7 +27,7 @@
         <item name="android:textColorLink">@color/accent</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:windowAnimationStyle">@style/ActivityAnimations</item>
-        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightStatusBar">false</item>
         <item name="localePickerStyle">@style/LocaleWidget.Material.LocalePicker</item>
     </style>
 
@@ -53,8 +54,8 @@
 
     <style name="PageTitle">
         <item name="android:id">@android:id/title</item>
-        <item name="android:textSize">20sp</item>
-        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 
     <style name="PageSummaryText">
@@ -110,6 +111,15 @@
         <item name="internalMinWidth">64dip</item>
         <item name="internalMaxHeight">180dip</item>
         <item name="virtualButtonPressedDrawable">@null</item>
+    </style>
+
+    <style name="FluidNavBarTheme">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">#121212</item>
+        <item name="android:paddingLeft">32dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="sudNavBarTextColor">#FFFFFF</item>
     </style>
 
     <style name="NoDisplay" parent="@android:style/Theme.NoDisplay" />

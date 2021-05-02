@@ -128,12 +128,12 @@ public class LocalePicker extends LinearLayout {
     /**
      * The strength of fading in the top and bottom while drawing the selector.
      */
-    private static final float TOP_AND_BOTTOM_FADING_EDGE_STRENGTH = 0.9f;
+    private static final float TOP_AND_BOTTOM_FADING_EDGE_STRENGTH = 0.8f;
 
     /**
      * The default unscaled height of the selection divider.
      */
-    private static final int UNSCALED_DEFAULT_SELECTION_DIVIDER_HEIGHT = 1;
+    private static final int UNSCALED_DEFAULT_SELECTION_DIVIDER_HEIGHT = 0;
 
     /**
      * The default unscaled distance between the selection dividers.

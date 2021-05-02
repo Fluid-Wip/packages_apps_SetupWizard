@@ -2,6 +2,7 @@
 <!--
      Copyright (C) 2013 The CyanogenMod Project
      Copyright (C) 2017 The LineageOS Project
+     Copyright (C) 2020-2021 ProjectFluid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -49,16 +50,38 @@
 
                 <TextView
                     android:id="@+id/mobile_data_summary"
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     style="@style/PageSummaryText"
-                    android:textSize="15sp"
-                    android:paddingLeft="@dimen/content_margin_left"
-                    android:paddingRight="@dimen/content_margin_right"
-                    android:paddingBottom="@dimen/summary_margin_bottom"
-                    android:text="@string/enable_mobile_data_summary" />
+                    android:textSize="16sp"
+                    android:layout_marginLeft="@dimen/content_margin_left"
+                    android:layout_marginRight="@dimen/content_margin_right"
+                    android:layout_marginBottom="@dimen/summary_margin_bottom"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:text="@string/mobile_data_summary" />
 
-                <include layout="@layout/divider" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="32dp"
+                    android:padding="16dp"
+                    android:background="@drawable/content_card_bg">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_info"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/choose_data_sim_summary"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp" />
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/data"
@@ -98,15 +121,13 @@
                         android:textOn="@string/yes"/>
                 </LinearLayout>
 
-                <include layout="@layout/divider" />
-
             </LinearLayout>
         </ScrollView>
     </FrameLayout>
 
     <com.google.android.setupdesign.view.NavigationBar
         android:id="@+id/navigation_bar"
-        style="@style/SudNavBarTheme"
+        style="@style/FluidNavBarTheme"
         android:layout_width="match_parent"
         android:layout_height="@dimen/sud_navbar_height" />
 

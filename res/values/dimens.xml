@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2013 The CyanogenMod Project
+     Copyright (C) 2020-2021 ProjectFluid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,20 +18,22 @@
 <resources>
     <dimen name="logo_header_height">244dp</dimen>
     <dimen name="header_height">244dp</dimen>
-    <dimen name="header_condensed_height">88dp</dimen>
+    <dimen name="header_condensed_height">200dp</dimen>
     <dimen name="page_title_height">64dp</dimen>
     <dimen name="header_title_margin_left">26dp</dimen>
     <dimen name="header_logo_margin_left">25dp</dimen>
     <dimen name="header_logo_margin_bottom">11dp</dimen>
     <dimen name="header_logo_margin_top">30dp</dimen>
-    <dimen name="content_margin_top">26dp</dimen>
-    <dimen name="content_margin_left">26dp</dimen>
-    <dimen name="content_margin_right">14dp</dimen>
-    <dimen name="content_margin_bottom">20dp</dimen>
-    <dimen name="summary_margin_bottom">20dp</dimen>
-    <dimen name="location_margin_left">20dp</dimen>
-    <dimen name="location_text_margin_left">10dp</dimen>
-    <dimen name="location_text_margin_right">30dp</dimen>
+    <dimen name="button_padding">24dp</dimen>
+    <dimen name="content_margin_top">24dp</dimen>
+    <dimen name="content_margin_left">32dp</dimen>
+    <dimen name="content_margin">8dp</dimen>
+    <dimen name="content_margin_right">32dp</dimen>
+    <dimen name="content_margin_bottom">24dp</dimen>
+    <dimen name="summary_margin_bottom">24dp</dimen>
+    <dimen name="location_margin_left">32dp</dimen>
+    <dimen name="location_text_margin_left">32dp</dimen>
+    <dimen name="location_text_margin_right">32dp</dimen>
     <dimen name="data_switch_margin_right">30dp</dimen>
     <dimen name="carrier_text_margin_left">15dp</dimen>
     <dimen name="setup_line_spacing">3sp</dimen>

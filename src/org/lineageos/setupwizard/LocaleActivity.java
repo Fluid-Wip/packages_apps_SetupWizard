@@ -78,7 +78,7 @@ public class LocaleActivity extends BaseSetupWizardActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setNextText(R.string.next);
+        setNextText(R.string.no_text);
         mLanguagePicker = (LocalePicker) findViewById(R.id.locale_list);
         loadLanguages();
     }

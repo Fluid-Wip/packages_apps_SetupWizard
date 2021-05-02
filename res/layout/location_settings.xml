@@ -2,6 +2,7 @@
 <!--
      Copyright (C) 2013 The CyanogenMod Project
      Copyright (C) 2017-2020 The LineageOS Project
+     Copyright (C) 2020-2021 ProjectFluid
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -39,21 +40,45 @@
                 style="@style/PageContent">
 
                 <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="@dimen/content_margin_left"
+                    android:layout_marginRight="@dimen/content_margin_right"
+                    android:layout_marginBottom="@dimen/summary_margin_bottom"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    style="@style/PageSummaryText" />
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textSize="15sp"
-                    android:layout_marginBottom="@dimen/summary_margin_bottom"
-                    android:paddingLeft="@dimen/content_margin_left"
-                    android:paddingRight="@dimen/content_margin_right"
-                    style="@style/PageSummaryText" />
+                    android:layout_margin="32dp"
+                    android:padding="16dp"
+                    android:background="@drawable/content_card_bg">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_info"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/location_access_info"
+                        android:layout_marginStart="24dp"
+                        android:layout_marginEnd="24dp" />
+
+                </LinearLayout>
 
                 <LinearLayout
                     android:id="@+id/location"
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:paddingLeft="@dimen/location_margin_left"
-                    android:paddingRight="@dimen/content_margin_right"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
                     android:background="?android:attr/selectableItemBackground"
                     android:clickable="true">
 
@@ -72,7 +97,7 @@
                         android:layout_width="0px"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:textSize="15sp"
+                        android:textSize="16sp"
                         android:lineSpacingExtra="@dimen/setup_line_spacing"
                         android:gravity="top"
                         android:layout_marginLeft="@dimen/location_text_margin_left"
@@ -89,7 +114,7 @@
 
     <com.google.android.setupdesign.view.NavigationBar
         android:id="@+id/navigation_bar"
-        style="@style/SudNavBarTheme"
+        style="@style/FluidNavBarTheme"
         android:layout_width="match_parent"
         android:layout_height="@dimen/sud_navbar_height" />
 

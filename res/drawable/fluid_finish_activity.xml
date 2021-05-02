@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020-2021 ProjectFluid
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="411dp"
+    android:height="823dp"
+    android:viewportWidth="411"
+    android:viewportHeight="823">
+    <group>
+        <path
+            android:fillColor="#121212"
+            android:pathData="M0 0h411v823H0z"/>
+        <path
+            android:fillColor="#252525"
+            android:pathData="M33 692a90 90 0 1 0 0 180a90 90 0 1 0 0-180z"/>
+        <path
+            android:fillColor="#52252525"
+            android:strokeColor="#252525"
+            android:strokeWidth="6"
+            android:pathData="M411 489a81 81 0 1 0 0 162a81 81 0 1 0 0-162z"/>
+        <path
+            android:fillColor="#52252525"
+            android:strokeColor="#252525"
+            android:strokeWidth="6"
+            android:pathData="M-33.18-32.06c3.33-15.67 18.73-25.67 34.4-22.34l133.02 28.28c15.67 3.33 25.67 18.73 22.34 34.39l-28.27 133.03c-3.33 15.67-18.73 25.67-34.4 22.34l-133.03-28.28c-15.67-3.33-25.67-18.73-22.34-34.4z"/>
+        <path
+            android:fillColor="#52252525"
+            android:strokeColor="#252525"
+            android:strokeWidth="6"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M441.4-41.88l-0.05-0.02c-0.3-0.1-0.64-0.14-1.03-0.05h0c-11.75 2.53-26.35 6.65-42.28 12.5L397-32.28l1.04 2.81c-11.38 4.18-23.42 9.23-35.56 15.22C341.68-3.97 320.63 9.02 302.1 25c-10.32 8.91-19.85 18.74-28.1 29.53c-7.7 10.05-14.28 20.94-19.38 32.7c-6.48 14.95-9.95 29.12-11.15 42.41l-2.98-0.27l2.98 0.27c-1.1 12.18-0.27 23.65 1.91 34.32c5.3 25.87 18.67 47.16 32.5 62.57c12.79 14.25 25.75 23.25 32.77 26.22h0c3.89 1.64 9.57 3.84 16.6 5.85L441.39-41.88zm0 0c0.93 0.3 1.71 1.42 1.47 2.72h0c-4.42 23.64-2.79 44.94 1.69 64.67c4.43 19.5 11.66 37.52 18.52 54.64l0.04 0.1h0l0.03 0.06v0.01c2 4.97 3.96 9.86 5.83 14.72c12.3 31.99 20.08 61.56 3.72 95.02h0c-1.27 2.62-2.7 5.26-4.3 7.94c-2.1 3.55-4.25 6.92-6.42 10.12c-0.16 0.14-0.3 0.31-0.43 0.5c-15.3 22.28-32.23 36.15-49.06 44.43h0c-7.25 3.57-14.5 6.12-21.62 7.85c-23.76 5.77-46.14 2.52-62.19-1.9v-0.01M441.38-41.88L328.67 258.99m0 0l-0.96-0.27l0.96 0.27zm-0.96-0.27l-0.45-0.13l0.45 0.13z"/>
+        <path
+            android:fillColor="#252525"
+            android:pathData="M-79.01 334.87c-6.62-16.38 1.3-35.04 17.68-41.66l87.38-35.3c16.38-6.62 35.04 1.3 41.65 17.68l35.31 87.38c6.62 16.38-1.3 35.04-17.68 41.66l-87.38 35.3c-16.38 6.62-35.04-1.3-41.66-17.68z"/>
+    </group>
+</vector>
