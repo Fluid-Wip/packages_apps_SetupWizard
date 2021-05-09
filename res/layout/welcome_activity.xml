@@ -69,6 +69,7 @@
         android:id="@+id/navigation_bar"
         style="@style/FluidNavBarTheme"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/sud_navbar_height" />
+        android:layout_height="@dimen/sud_navbar_height"
+        android:visibility="gone" />
 
 </LinearLayout>

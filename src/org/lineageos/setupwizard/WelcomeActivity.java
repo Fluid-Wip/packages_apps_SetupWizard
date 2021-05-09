@@ -34,14 +34,24 @@ public class WelcomeActivity extends BaseSetupWizardActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         mRootView = findViewById(R.id.root);
+        mTextArea = findViewById(R.id.welcome_text_layout);
         setNextText(R.string.no_text);
         setBackText(R.string.emergency_call);
         setBackDrawable(null);
         mEnableAccessibilityController =
                 EnableAccessibilityController.getInstance(getApplicationContext());
-        mRootView.setOnTouchListener((v, event) ->
+        mTextArea.setOnTouchListener((v, event) ->
                 mEnableAccessibilityController.onTouchEvent(event));
-
+        mRootView.setOnTouchListener(new OnSwipeTouchListener(this) {
+            @Override
+            public void onSwipeLeft() {
+                onNavigateNext();
+            }
+            @Override
+            public void onSwipeRight() {
+                onNavigateNext();
+            }
+        });
     }
 
     @Override
